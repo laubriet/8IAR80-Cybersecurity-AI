@@ -1,0 +1,30 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# Cache et fichiers Python générés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Outils de packaging
+build/
+dist/
+*.egg-info/
+
+# Notebooks Jupyter
+.ipynb_checkpoints/
+
+# Configuration et caches d'outils locaux
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Fichiers système et éditeur
+.DS_Store
+Thumbs.db
+.vscode/
